@@ -35,6 +35,7 @@ Provides reusable editor primitives for rich text or structured editing experien
 | Package ID | `editor` |
 | Display Name | Editor |
 | Import Name | `@platform/editor` |
+| Canonical Namespace Target | `@gutu/editor` |
 | Version | `0.1.0` |
 | UI Surface | React UI + typed helpers |
 | Consumption Model | Imports + typed UI primitives |
@@ -48,6 +49,7 @@ Provides reusable editor primitives for rich text or structured editing experien
 | Dev Dependencies | None |
 | React Runtime | Yes |
 | Workspace Scoped | Yes |
+| Legacy Compatibility IDs | `@platform/editor` |
 
 ### Dependency interpretation
 

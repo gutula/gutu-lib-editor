@@ -3,6 +3,7 @@ const summary = {
   "repoName": "gutu-lib-editor",
   "packageId": "editor",
   "displayName": "Editor",
+  "packageCount": 1,
   "group": "UI Foundation",
   "maturity": "Baseline",
   "description": "Editor reusable library exports.",

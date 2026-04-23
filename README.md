@@ -45,6 +45,7 @@ Why this tier:
 | --- | --- |
 | Package ID | `editor` |
 | Import Name | `@platform/editor` |
+| Canonical Namespace Target | `@gutu/editor` |
 | UI Surface | React UI + typed helpers |
 | Consumption Model | Imports + typed UI primitives |
 | Verification | Build+Typecheck+Lint+Test |
@@ -54,10 +55,18 @@ Why this tier:
 | Field | Value |
 | --- | --- |
 | Package Name | `@platform/editor` |
+| Canonical Namespace Target | `@gutu/editor` |
+| Legacy Compatibility IDs | `@platform/editor` |
 | Direct Dependencies | `@platform/ui-editor`, `react` |
 | Peer Dependencies | None |
 | React Runtime | Yes |
 | Workspace Requirement | Compatible Gutu workspace required |
+
+## Namespace Policy
+
+- `@gutu/*` is the canonical public framework namespace for new work.
+- This repo currently publishes `@platform/editor` as the legacy compatibility package id while the migration to `@gutu/editor` is completed.
+- Catalog metadata carries the canonical target id so dashboards, docs, and future tooling can present one uniform Gutu namespace without breaking current consumers.
 
 ## Capability Matrix
 

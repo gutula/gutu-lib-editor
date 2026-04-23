@@ -6,11 +6,11 @@
     "framework/libraries/*"
   ],
   "scripts": {
-    "build": "bun --cwd framework/libraries/editor run build",
-    "typecheck": "bun --cwd framework/libraries/editor run typecheck",
-    "lint": "bun --cwd framework/libraries/editor run lint",
-    "test": "bun --cwd framework/libraries/editor run test",
-    "test:unit": "bun --cwd framework/libraries/editor run test:unit",
+    "build": "bun run --cwd framework/libraries/editor build",
+    "typecheck": "bun run --cwd framework/libraries/editor typecheck",
+    "lint": "bun run --cwd framework/libraries/editor lint",
+    "test": "bun run --cwd framework/libraries/editor test",
+    "test:unit": "bun run --cwd framework/libraries/editor test:unit",
     "docs:summary": "node scripts/docs-summary.mjs",
     "docs:check": "node scripts/docs-check.mjs"
   }
